@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home"
+        android:title="home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_home_24" />
+
+    <item android:id="@+id/recipeFav"
+        android:title="add to favorite"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_favorite_24" />
+
+    <item android:id="@+id/search"
+        android:title="search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_search_24" />
+
+    <item android:id="@+id/recipeHelp"
+        android:title="help"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_help_24" />
+
+    <item android:id="@+id/Readme"
+        android:title="about"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/about" />
+</menu>
